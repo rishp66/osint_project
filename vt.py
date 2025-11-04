@@ -6,9 +6,9 @@ import time
 # Load environment variables from .env file
 load_dotenv()
 
-api_key = os.getenv("VT_API_KEY")
+vt_api_key = os.getenv("VT_API_KEY")
 
-if not api_key:
+if not vt_api_key:
     raise ValueError("VT_API_KEY environment variable not set")
 
 def ensure_url_protocol(url):
@@ -101,7 +101,7 @@ def print_scan_summary(analysis_result, url_to_scan):
             if vendor_result and vendor_result != 'clean' and vendor_result != 'unrated':
                 vendor_str = f"{vendor} ({vendor_result})"
             
-            if category == 'malicious':
+            if category in ['malicious', 'malware', 'phishing']:
                 malicious_vendors.append(vendor_str)
             elif category == 'suspicious':
                 suspicious_vendors.append(vendor_str)
