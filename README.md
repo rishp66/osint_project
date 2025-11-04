@@ -1,4 +1,4 @@
-# OSINT Project
+# OS1NT - OSINT Intelligence Aggregator
 
 ## Overview
 This project is designed to facilitate Open Source Intelligence (OSINT) gathering and analysis. It aims to provide tools and resources for collecting publicly available information from various sources.
@@ -8,14 +8,6 @@ This project is designed to facilitate Open Source Intelligence (OSINT) gatherin
 - Web scraping capabilities
 - Integration with various APIs for data retrieval
 - Data analysis and visualization tools
-
-# OSINT Intelligence Aggregator
-
-## Overview
-
-A comprehensive Open Source Intelligence (OSINT) platform that aggregates threat intelligence data from multiple trusted sources. This tool provides security researchers, analysts, and IT professionals with a unified interface to query and analyze potential security threats across various intelligence feeds.
-
-## Features
 
 ### Current Integrations
 
@@ -37,13 +29,7 @@ A comprehensive Open Source Intelligence (OSINT) platform that aggregates threat
 - **Asset Discovery**: Map internet-facing infrastructure
 - **Historical Data**: Access historical scan data and trends
 
-### 🚀 Coming Soon
-We're actively working on expanding our integration portfolio. Future additions will include:
-- Additional threat intelligence platforms
-- Enhanced correlation capabilities
-- Custom alerting and monitoring features
-- API access for programmatic queries
-- Advanced visualization and reporting tools
+### more to come....
 
 ## Getting Started
 
@@ -51,6 +37,7 @@ We're actively working on expanding our integration portfolio. Future additions 
 - API keys for integrated services (VirusTotal, AlienVault, Shodan)
 - Modern web browser (Chrome, Firefox, Safari, or Edge)
 - Basic understanding of OSINT concepts
+- desire to learn :)
 
 ### Quick Start Guide
 
